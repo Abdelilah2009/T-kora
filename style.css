@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.store__container h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+.store__container p {
+  margin-bottom: 4rem;
+  font-weight: 500;
+  color: #727274;
+  text-align: center;
+}
+
+.swiper {
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+.swiper-slide {
+  max-width: 400px;
+}
+
+.store__card h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+.store__card img {
+  max-width: 325px;
+  margin-inline: auto;
+  margin-bottom: 2rem;
+}
+
+.store__card h3 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000000;
+}
+
+
+
+
