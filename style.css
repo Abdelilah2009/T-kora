@@ -291,13 +291,25 @@ img{
 }
 
 .about .container .content-img img{
-  height: 500px;
+  height: 550px;
   width: auto;
+  border-radius: 10px;
 }
 
 .about .container .content-text{
   padding-top: 50px;
   text-align: left;
+}
+
+.about .container .content-text h2{
+  padding-bottom: 10px;
+  font-size: 2.3rem;
+}
+
+.about .container .content-text p{
+  padding-top: 20px;
+  font-size: 1.3rem;
+  line-height: 140%;
 }
 
 
