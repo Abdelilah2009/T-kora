@@ -63,6 +63,7 @@ img{
   color: #000;
   padding: 10px 0 0 8px;
   transition: .3s;
+  font-size: 27px;
 }
 
 #navbar a h2:hover{
@@ -226,6 +227,54 @@ img{
 .hero .slider-btn.prev { left: 20px; }
 
 .hero .slider-btn.next { right: 20px; }
+
+
+/* ABOUT */
+
+
+.about{
+  background: #000;
+  padding-top: 60px;
+}
+
+.about .container .content-img img{
+  height: 500px;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* STORE */
