@@ -37,8 +37,7 @@ img{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f0f8ff;
-  box-shadow:  20px 10px 10px #ff0000;
+  background: #ffffff;
   padding: 15px 40px;
   /* height: 100px; */
   /* position: fixed;
@@ -56,7 +55,65 @@ img{
 
 #navbar ul{
   display: flex;
+  gap: 50px;
 }
+
+#navbar a h2{
+  color: #000;
+  padding: 10px 0 0 8px;
+  transition: .3s;
+}
+
+#navbar a h2:hover{
+  color: #00ffff;
+}
+
+#navbar a h2 span{
+  color: #00ffff;
+  padding-left: 5px;
+}
+
+#navbar ul li a{
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 450;
+  transition: .3s;
+}
+
+#navbar ul li a:hover{
+  color: #00ffff;
+}
+
+#navbar .btns-bar{
+  display: flex;
+  gap: 25px;
+}
+
+#navbar .btns-bar a{
+  background: #00ffff;
+  padding: 15px 20px ;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  text-transform: capitalize;
+  transition: .3s;
+}
+
+
+#navbar .btns-bar a:nth-child(1):hover{
+  border: 2px solid #00ffff;
+  transition: .5s ease;
+} 
+
+#navbar .btns-bar a:nth-child(1),
+#navbar .btns-bar a:nth-child(2):hover{
+  background: transparent;
+  border: 2px solid #00ffff;
+}
+
+#navbar .btns-bar a:nth-child(1){
+  border: 2px solid transparent;
+}
+
 
 #navbar ul i,
 #navbar .mobile{
