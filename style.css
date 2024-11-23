@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  border: none;
+  list-style: none;
 }
 
 .section__container {
@@ -16,6 +18,218 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
+i { 
+  display: block; 
+  pointer-events: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+ /* NAVBAR */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HERO */
+
+
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.hero {
+  padding-block-start: 160px;
+  text-align: center;
+  padding-block: 90px 
+}
+
+.hero .container {
+  display: grid;
+  gap: 70px;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.hero-text {
+  font-size:  1.8rem;
+  color: #ffffff;
+  margin-block: 24px 36px;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-slider,
+.hero-card { 
+  position: relative; 
+}
+
+.hero .slider-inner {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hero .slider-container {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  transition: .5s ease;
+}
+
+.hero .slider-item {
+  min-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hero .slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffffb3;
+  color: #343e51;
+  font-size: 2rem;
+  padding: 10px 11px 9px;
+  border-radius:  50%;
+  transition:  0.25s ease;
+}
+
+.hero .slider-btn:is(:hover, :focus-visible) { background-color: #ffffff; }
+
+.hero .slider-btn.prev { left: 20px; }
+
+.hero .slider-btn.next { right: 20px; }
+
+
+@media (min-width: 575px) {
+
+  .container {
+    max-width: 540px;
+    width: 100%;
+    margin-inline: auto;
+  }
+
+
+}
+
+
+@media (min-width: 768px) {
+
+
+  .container { max-width: 720px; }  
+
+
+}
+
+
+
+
+
+/**
+ * responsive for large than 992px screen
+ */
+
+@media (min-width: 992px) {
+
+
+
+  .hero .container {
+    grid-template-columns: 1fr 0.8fr;
+    align-items: center;
+  }
+
+}
+
+
+
+
+@media (min-width: 1400px) {
+  .container { 
+    max-width: 1320px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .store__container h2 {
   margin-bottom: 0.5rem;
