@@ -232,9 +232,62 @@ img{
 /* ABOUT */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .about{
-  background: #000;
-  padding-top: 60px;
+  background: #ffffff;
+  padding: 60px 0;
+}
+
+.about .container{
+  display: flex;
+  gap: 80px;
 }
 
 .about .container .content-img img{
@@ -242,6 +295,10 @@ img{
   width: auto;
 }
 
+.about .container .content-text{
+  padding-top: 50px;
+  text-align: left;
+}
 
 
 
