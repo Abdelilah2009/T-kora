@@ -30,6 +30,10 @@ img{
   user-select: none;
 }
 
+.section__title {
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+}
 
  /* NAVBAR */
 
@@ -280,37 +284,50 @@ img{
 
 
 
-.about{
-  background: #ffffff;
-  padding: 60px 0;
-}
 
-.about .container{
+.about__header {
   display: flex;
-  gap: 80px;
+  gap: 2rem;
 }
 
-.about .container .content-img img{
-  height: 550px;
-  width: auto;
+.about__image img {
+  max-width: 450px;
+  margin: auto;
   border-radius: 10px;
 }
 
-.about .container .content-text{
-  padding-top: 50px;
-  text-align: left;
-}
-
-.about .container .content-text h2{
-  padding-bottom: 10px;
-  font-size: 2.3rem;
-}
-
-.about .container .content-text p{
-  padding-top: 20px;
-  font-size: 1.3rem;
+.about__content .paragraph {
+  margin-block: 2rem;
+  color: #6b7280;
   line-height: 140%;
 }
+
+#about .section__header {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+#about .btn {
+  padding: 0.9rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  white-space: nowrap;
+  color: #000;
+  background-color: #00ffff;
+  border-radius: 2px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#about .btn:hover {
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+
+
 
 
 
@@ -432,7 +449,6 @@ img{
 
 @media (min-width: 768px) {
 
-
   .container { max-width: 720px; }  
 
 
@@ -440,8 +456,6 @@ img{
 
 
 @media (min-width: 992px) {
-
-
 
   .hero .container {
     grid-template-columns: 1fr 0.8fr;
@@ -473,6 +487,19 @@ img{
   #navbar .btns-bar{
     display: none;
   }
+
+}
+
+@media (max-width: 899px) {
+  .about__header {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
 
 }
 
