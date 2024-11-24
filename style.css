@@ -35,6 +35,16 @@ img{
   font-size: 1.7rem;
 }
 
+.section__title::after{
+  content: '';
+  width: 100px;
+  background: #00ffff;
+  height: 5px;
+  display: block;
+  margin: 10px 0 0;
+  border-radius: 8px;
+}
+
  /* NAVBAR */
 
 
@@ -299,7 +309,7 @@ img{
 .about__content .paragraph {
   margin-block: 2rem;
   color: #6b7280;
-  line-height: 140%;
+  line-height: 150%;
 }
 
 #about .section__header {
@@ -498,6 +508,16 @@ img{
     justify-content: center;
     text-align: center;
     
+  }
+
+  .section__title::after{
+    content: '';
+    width: 100px;
+    background: #00ffff;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 8px;
   }
 
 
