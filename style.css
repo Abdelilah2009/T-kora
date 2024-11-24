@@ -147,9 +147,7 @@ img{
   display: none;
 }
 
-
 /* HERO */
-
 
 .img-cover {
   width: 100%;
@@ -158,7 +156,6 @@ img{
 }
 
 .hero {
-  background-color: #f0f8ff;
   padding-block-start: 160px;
   text-align: center;
   padding-block: 90px;
@@ -261,6 +258,10 @@ img{
 .hero .slider-btn.next { right: 20px; }
 
 /* ABOUT */
+
+.bg-c{
+  background-color: #f0f8ff;
+}
 
 .about__header {
   display: flex;
