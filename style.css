@@ -45,6 +45,8 @@ img{
 .section__title {
   margin-bottom: 20px;
   font-size: 1.7rem;
+  color: #000;
+  font-weight: 600;
 }
 
 .section__title::after{
@@ -310,6 +312,12 @@ img{
 #store{
   user-select: none;
 }
+
+.store__container .section__title{
+  color: #000;
+  font-weight: 600;
+}
+
 
 .section__container {
   max-width: 1200px;
