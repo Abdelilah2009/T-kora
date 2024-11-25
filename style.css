@@ -53,7 +53,7 @@ img{
   background: #00ffff;
   height: 5px;
   display: block;
-  margin: 10px 0 0;
+  margin: 10px auto 0;
   border-radius: 8px;
 }
 
@@ -475,14 +475,10 @@ form{
 }
 
 .para{
-  color: aqua;
+  color: #6b7280;
   font-size: 1.1rem;
   line-height: 1.5em;
   margin-bottom: 1em;
-}
-
-.para2{
-  text-align: left;
 }
 
 .input{
@@ -514,7 +510,7 @@ form{
   color: #000;
   font-weight: bold;
   cursor: pointer;
-  width: 100%;
+  width: 95%;
 }
 
 .img-container-contact{
@@ -537,8 +533,8 @@ form{
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 90%;
-  height: 90%;
+  width: 82%;
+  height: 92%;
 }
  
 .img-contact img{
@@ -559,11 +555,6 @@ form{
   align-items: center;
 }
 
-.contactIcon{
-  font-size: 2rem;
-  color: var(--primaryColor);
-  width: 70px;
-}
 
 @media screen and (min-width:800px) {
   section{
