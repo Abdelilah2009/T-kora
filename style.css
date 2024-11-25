@@ -431,7 +431,7 @@ form{
   font-size: .9rem;
   padding: 1em;
   outline: none;
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   color: #000;
   border-radius: 10px;
   border: 1px solid rgb(53, 53, 53);
@@ -454,6 +454,12 @@ form{
   font-weight: bold;
   cursor: pointer;
   width: 95%;
+  transition: .3s;
+}
+
+.submit:hover{
+  background-color: #6bffff;
+  color: #fff;
 }
 
 .img-container-contact{
@@ -591,7 +597,7 @@ form{
 
 
 footer {
-  background: #190057;
+  background: #fff;
 }
 
 footer .logo-details img{
@@ -642,7 +648,7 @@ footer .content .top {
 }
 
 .content .top .logo-details {
-  color: #fff;
+  color: #000;
   font-size: 30px;
 }
 
@@ -682,30 +688,12 @@ footer .content .top {
 }
 
 .top .media-icons a:nth-child(3) {
-  background: #e1306c;
+  background: #ff5100;
 }
 
 .top .media-icons a:nth-child(3):hover {
-  color: #e1306c;
-  background: #fff;
-}
-
-.top .media-icons a:nth-child(4) {
-  background: #0077b5;
-}
-
-.top .media-icons a:nth-child(4):hover {
-  color: #0077b5;
-  background: #fff;
-}
-
-.top .media-icons a:nth-child(5) {
-  background: #ff0000;
-}
-
-.top .media-icons a:nth-child(5):hover {
-  color: #ff0000;
-  background: #fff;
+  color: #ff5100;
+  background-color: #fff;
 }
 
 footer .content .link-boxes {
@@ -714,12 +702,17 @@ footer .content .link-boxes {
   justify-content: space-between;
 }
 
+footer .content .link-boxes .box p{
+  text-align: center;
+  color: #000;
+}
+
 footer .content .link-boxes .box {
   width: calc(100% / 5 - 10px);
 }
 
 .content .link-boxes .box .link_name {
-  color: #fff;
+  color: #000;
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -733,7 +726,7 @@ footer .content .link-boxes .box {
   bottom: -2px;
   height: 2px;
   width: 35px;
-  background: #fff;
+  background: #000;
 }
 
 .content .link-boxes .box li {
@@ -742,7 +735,7 @@ footer .content .link-boxes .box {
 }
 
 .content .link-boxes .box li a {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
@@ -763,7 +756,7 @@ footer .content .link-boxes .box {
   height: 40px;
   width: calc(100% + 55px);
   outline: none;
-  border: 2px solid #afafb6;
+  border: 2px solid #000000;
   background: #eaeaea;
   border-radius: 4px;
   padding: 0 15px;
@@ -773,13 +766,13 @@ footer .content .link-boxes .box {
 }
 
 .link-boxes .input-box input::placeholder {
-  color: #afafb6;
+  color: #000000b0;
   font-size: 16px;
 }
 
 .link-boxes .input-box input[type="button"] {
-  background: #fff;
-  color: #3824d2;
+  background: #000;
+  color: #fff;
   border: none;
   font-size: 18px;
   font-weight: 500;
@@ -810,7 +803,7 @@ footer .bottom-details .bottom_text {
 .bottom-details .bottom_text a {
   font-size: 14px;
   font-weight: 300;
-  color: #fff;
+  color: #000;
   opacity: 0.8;
   text-decoration: none;
 }
