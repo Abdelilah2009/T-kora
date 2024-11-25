@@ -371,68 +371,6 @@ img{
 
 /* CONTACT */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 section{
   display: flex;
   flex-direction: column;
@@ -443,16 +381,8 @@ section{
   margin-top: 2em;
 }
 
-/* .sectionHeader{
-  text-transform: capitalize;
-  font-weight: bold;
-  font-size: 1.1rem;
-  color: red;
-  margin-bottom: .5em;
-} */
-
 .heading,.sub-heading{
-  margin-bottom: .5em;
+  margin-bottom: 1em;
   font-weight: bold;
 }
 
@@ -554,7 +484,6 @@ form{
   display: flex;
   align-items: center;
 }
-
 
 @media screen and (min-width:800px) {
   section{
