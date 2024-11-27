@@ -90,16 +90,38 @@ const scrollRevealOption = {
   duration: 1000,
 };
 
+
+ScrollReveal().reveal(".hh", {
+  ...scrollRevealOption,
+  origin: "right",
+  delay: 500  ,
+});
+
 ScrollReveal().reveal(".hero .hero-content-text h1", {
   ...scrollRevealOption,
   origin: "right",
 });
 
-ScrollReveal().reveal(".hero .hero-content-text p", {
+ScrollReveal().reveal(".about__container .about__content h2", {
   ...scrollRevealOption,
   origin: "right",
-  delay: 500  ,
 });
+
+ScrollReveal().reveal(".section__title", {
+  ...scrollRevealOption,
+  origin: "bottom",
+});
+
+ScrollReveal().reveal(".navbar", {
+  ...scrollRevealOption,
+  origin: "top",
+});
+
+ScrollReveal().reveal(".about__container .about__image", {
+  ...scrollRevealOption,
+  origin: "right",
+});
+
 
 // ScrollReveal().reveal(".header__content h1", {
 //   ...scrollRevealOption,
