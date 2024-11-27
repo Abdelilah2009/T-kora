@@ -31,6 +31,11 @@
   background-color: #5af1f1;
 }
 
+::selection {
+  background: var(--main-color);
+  color: var(--black-color);
+}
+
 html,
 body {
   scroll-behavior: smooth;
