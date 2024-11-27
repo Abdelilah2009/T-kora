@@ -146,27 +146,13 @@ ScrollReveal().reveal(".contactForm .img-container-contact", {
   delay: 1300 ,
 });
 
+ScrollReveal().reveal(".contact .contactMethod", {
+  ...scrollRevealOption,
+  origin: "bottom",
+  delay: 1400 ,
+});
 
-
-// ScrollReveal().reveal(".header__content h1", {
-//   ...scrollRevealOption,
-//   delay: 500,
-// });
-// ScrollReveal().reveal(".header__content p", {
-//   ...scrollRevealOption,
-//   delay: 1000,
-// });
-// ScrollReveal().reveal(".header__image__content ", {
-//   duration: 1000,
-//   delay: 1500,
-// });
-
-// ScrollReveal().reveal(".product__image img", {
-//   ...scrollRevealOption,
-//   origin: "left",
-// });
-// ScrollReveal().reveal(".product__card", {
-//   ...scrollRevealOption,
-//   delay: 500,
-//   interval: 500,
-// });
+ScrollReveal().reveal("footer", {
+  ...scrollRevealOption,
+  origin: "bottom",
+});
