@@ -122,6 +122,31 @@ ScrollReveal().reveal(".about__container .about__image", {
   origin: "right",
 });
 
+ScrollReveal().reveal(".hh2", {
+  ...scrollRevealOption,
+  origin: "left",
+  delay: 800 ,
+});
+
+ScrollReveal().reveal(".hh3", {
+  ...scrollRevealOption,
+  origin: "left",
+  delay: 1100 ,
+});
+
+ScrollReveal().reveal(".contactForm form", {
+  ...scrollRevealOption,
+  origin: "left",
+  delay: 1300 ,
+});
+
+ScrollReveal().reveal(".contactForm .img-container-contact", {
+  ...scrollRevealOption,
+  origin: "right",
+  delay: 1300 ,
+});
+
+
 
 // ScrollReveal().reveal(".header__content h1", {
 //   ...scrollRevealOption,
